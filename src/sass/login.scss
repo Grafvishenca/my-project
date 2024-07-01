@@ -1,0 +1,23 @@
+.login {
+
+  &__text {
+    max-width: 1070px;
+    margin: 0 auto 30px;
+  }
+
+  &__form {
+    margin: 0 auto 30px;
+    background: #F5F6FF;
+
+    &--contact {
+        max-width: 630px;
+    }
+  }
+}
+
+
+.modal-body {
+  & h4 {
+    margin-bottom: 10px;
+  }
+}
