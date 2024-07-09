@@ -1,6 +1,6 @@
 .idea
 .git
-/node_modules
+.node_modules
 .DS_Store
 cod.txt 
 package-lock.json
