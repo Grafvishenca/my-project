@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./img/favicon.png" rel="shortcut icon" type="image/png"/>
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="./css/bundle.1d346ebf5b52e3ff8c17.css" rel="stylesheet"></head>
+<body id="body">
+    <section class="page-start">
+        <header class="page-header">
+            <div class="page-header__container container">
+                <img src="./img/logo.svg" class="page-header__logo" loading="lazy" alt="logo">
+                <nav class="page-header__nav page-nav">
+                    <ul class="page-nav__list">
+                        <li class="page-nav__item">
+                            <a href="about.html">
+                                About The Platform
+                            </a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="contact.html">
+                                Contact Page
+                            </a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="login.html">
+                                Login
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="page-header__list country-list">
+                        <span class="country-list__title-wrap">
+                            <img src="./img/en.png" alt="flag" id="selectedFlagImg">
+                            <span class="country-list__name" id="selectedFlagCode">
+                                EN
+                            </span>
+                        </span>
+                        <ul class="country-list__items" id="flagList"> 
+                            <li class="country-list__item" data-flag="dk" data-code="DK">
+                                <span class="country-list__title-wrap">
+                                    <span class="flag-container">
+                                        <img src="./img/dk.png" alt="flag">
+                                    </span> 
+                                    <span class="country-list__name
+                                        country-list__name--mod
+                                        color-white code-container">
+                                        DK
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="country-list__item" data-flag="de" data-code="DE">
+                                <span class="country-list__title-wrap">
+                                    <span class="country-list__title-wrap">
+                                        <span class="flag-container">
+                                            <img src="./img/de.png" alt="flag">
+                                        </span> 
+                                        <span class="country-list__name
+                                            country-list__name--mod
+                                            color-white code-container">
+                                            DE
+                                        </span>
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="country-list__item" data-flag="es" data-code="ES">
+                                <span class="country-list__title-wrap">
+                                    <span class="flag-container">
+                                        <img src="./img/es.png" alt="flag">
+                                    </span> 
+                                    <span class="country-list__name
+                                        country-list__name--mod
+                                        color-white code-container">
+                                        ES
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="country-list__item" data-flag="fi" data-code="FI">
+                                <span class="country-list__title-wrap">
+                                    <span class="flag-container">
+                                        <img src="./img/fi.png" alt="flag">
+                                    </span> 
+                                    <span class="country-list__name
+                                        country-list__name--mod
+                                        color-white code-container">
+                                        FI
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="country-list__item" data-flag="fr" data-code="FR">
+                                <span class="country-list__title-wrap">
+                                    <span class="flag-container">
+                                        <img src="./img/fr.png" alt="flag">
+                                    </span> 
+                                    <span class="country-list__name
+                                        country-list__name--mod
+                                        color-white code-container">
+                                        FR
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="country-list__item" data-flag="gr" data-code="GR">
+                                <span class="country-list__title-wrap">
+                                    <span class="flag-container">
+                                        <img src="./img/gr.png" alt="flag">
+                                    </span> 
+                                    <span class="country-list__name
+                                        country-list__name--mod
+                                        color-white code-container">
+                                        GR
+                                    </span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="container page-start__container">
+            <div class="page-start__title-wrap">
+                <h1 class="page-start__title page-title color-gold">
+                    Vortex Edge
+                </h1>
+                <h4 class="page-start__subtitle">
+                    Ease Into Crypto with
+                    Automated Trading Tools
+                </h4>
+            </div>
+            <div class="page-start__form-wrap">
+                <div class="form" id="page-form">
+                    <h3 class="form__title">Need more details? <br>You can leave your contact below!</h3>
+                    <form action="#" method="post">
+                        <label class="form__label" for="name">
+                            <input class="form__input" type="text" name="first_name" id="name"
+                                   placeholder="Enter your first name">
+                        </label>
+                        <label class="form__label" for="surname">
+                            <input class="form__input" type="text" name="last_name" id="surname"
+                                   placeholder="Enter your last name">
+                        </label>
+                        <label class="form__label" for="email">
+                            <input class="form__input" name="email" type="email" id="email"
+                                   placeholder="Enter your email address">
+                        </label>
+                        <label class="form__label" for="phone">
+                            <input class="form__input phone" name="phone" type="tel" id="phone"
+                                   placeholder="Enter your email address">
+                        </label>
+                        <button class="form__btn" type="submit">Register Now</button>
+                    </form>
+                    <p class="form__text">
+                        By entering your personal details here and clicking the
+                        <span class="form__text--register">Register Now</span> button you agree and assept the website
+                        <a data-bs-toggle="modal" data-bs-target="#privacy" class="form__link">Privacy Policy</a> and
+                        <a data-bs-toggle="modal" data-bs-target="#terms" class="form__link">Terms & Conditions</a>
+                    </p>
+                    <p class="form__text">
+                        Your personal information may be shared with third parties providing trading services as provided in
+                        the website privacy policy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-purple page-wrap">
+        <div class="container page-purple__container">
+            <h2 class="page-purple__title page-titles color-white">
+                What is Online Trading
+            </h2>
+            <p class="page-purple__text">
+                Online trading has become extremely
+                prevalent due to the accessibility and widespread
+                reliance on the Internet. Trading online allows
+                individuals to buy and sell many different
+                transactions like cryptocurrencies, assets,
+                and more. Since the opportunity to trade
+                currencies online has been around since the
+                1990s, many changes have been made in terms
+                of online trading. Over time, many different
+                platforms and assets are available to
+                trade and invest in.
+            </p>
+        </div>
+    </section>
+    <section class="page-trading page-wrap">
+        <div class="container">
+            <h2 class="page-trading__title page-titles color-dark">
+                Understand the Process of Online Trading
+            </h2>
+            <div class="page-trading__container">
+                <p class="page-trading__text">
+                    Despite the fact that online trading is a relatively
+                    simple idea, the execution of it is quite complex.
+                    On a base level, it involves buying or selling
+                    orders through the Internet. Those who trade
+                    online can trade many assets like
+                    commodities, bonds, currencies, cryptocurrencies,
+                    and much more.
+                </p>
+                <p class="page-trading__text">
+                    The simple process of trading online all
+                    starts with a computer or other technological
+                    device that is capable of connecting to an
+                    Internet connection. Once you make an account
+                    with a trading company, you can purchase and
+                    trade any asset you desire.
+                </p>
+                <img src="./img/trad.png" class="page-trading__img" loading="lazy" alt="img">
+                <p class="page-trading__text page-trading__text--right">
+                    <span class="page-trading__text--mod">
+                        While it may seem like a simple process, trading
+                        online can be extremely difficult. While trading
+                        online, you take on a lot of risks, involve a lot
+                        of planning, and you could even go through some
+                        trial and error. Depending on the type of assets
+                        you are trading, the individual asset could be
+                        extremely dangerous. Before investing a lot of
+                        money or trading an investment, it is vital to
+                        practice, study market data, and improve your
+                        trading strategies.
+                    </span>
+                    <span>
+                        Due to the expanding online trading market, current
+                        platforms are created to make the trading process
+                        quick and simple. The traditional trading process
+                        is long and extremely difficult to master, and it
+                        takes much time to understand. With the help of
+                        the new online trading platforms, even those who
+                        are just starting with this endeavor relatively
+                        quickly. However, it is important to remember that
+                        there is no guarantee of success while trading,
+                        even if the market is stable or you have years
+                        of experience. Each asset you trade, and dime
+                        you invest in trading could all be lost.
+                    </span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="page-overview page-wrap">
+        <div class="container">
+            <h2 class="page-titles page-overview__title">
+                <span class="color-gold">Vortex</span>
+                <span class="color-white">Edge Overview</span>
+            </h2>
+            <p class="page-overview__text">
+                The main purpose and goal of Vortex Edge is to make
+                your online trading process quick and efficient.
+                This platform is perfect for those who are looking
+                to enter the online trading platform and makes it
+                extremely easy to understand.
+            </p>
+            <p class="page-overview__text">
+                A great feature of Immediate Edge is that it
+                is helpful for users of all skill levels.
+                Beginners will be able to use Vortex Edge to
+                learn the fundamentals of trading. Experienced
+                online traders can use the platform to save
+                time on the trades they are comfortable doing.
+            </p>
+            <a href="#page-form" class="page-btn page-overview__btn">
+                Claim your spot today
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="#fff">
+                    <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd" d="M9.5 6.75C9.08579 6.75 8.75 6.41421 8.75
+                            6C8.75 5.58579 9.08579 5.25 9.5 5.25H18.5C18.9142
+                            5.25 19.25 5.58579 19.25 6V15C19.25 15.4142
+                            18.9142 15.75 18.5 15.75C18.0858 15.75 17.75
+                            15.4142 17.75 15V7.81066L7.03033 18.5303C6.73744
+                            18.8232 6.26256 18.8232 5.96967 18.5303C5.67678
+                            18.2374 5.67678 17.7626 5.96967 17.4697L16.6893 6.75H9.5Z"
+                            />
+                </svg>
+            </a>
+        </div>
+    </section>
+    <section class="page-what page-wrap">
+        <div class="container page-what__container">
+            <h2 class="page-titles page-what__title">
+                What are the Benefits of Vortex Edge?
+            </h2>
+            <div class="page-what__inner">
+                <div class="page-what__left">
+                    <p class="page-what__text">
+                        No matter what level of experience you
+                        have with online trading, users can use
+                        Immediate Edge in a variety of fashions.
+                        To fully use this platform, however, it is
+                        important to understand how online trading
+                        platforms are more efficient than
+                        online trading.
+                    </p>
+                    <p class="page-what__text">
+                        Despite the simplicity of the process
+                        for online trading, the overall process
+                        could have been more relaxed since it
+                        became an option for people. This process
+                        operates with very little margin of error,
+                        with a minuscule mistake costing people
+                        money, which can be daunting for a new and
+                        inexperienced user. Even though people
+                        understand that trading comes with a risk
+                        and rewards, many people shy away due to
+                        the devastating results that could happen.
+                    </p>
+                </div>
+                <img src="./img/what-bg.png" class="page-what__img" loading="lazy" alt="img bg">
+                <div class="page-what__right">
+                    <p class="page-what__text page-what__text--mod">
+                        Through your progression as an online trader,
+                        your methods should naturally improve. This
+                        improvement will lead to the ability to make
+                        trades on your own. However, there is no exact
+                        method or formula, which is why it is important
+                        to study and practice trading online continuously.
+                    </p>
+                    <p class="page-what__text page-what__text--last">
+                        The great features and advantages of
+                        <span class="w-700">
+                            Vortex Edge
+                        </span>
+                        enable users to monitor market data, which will
+                        help them make informed decisions. These advantages
+                        are particularly helpful for beginners who are
+                        looking to trade relatively stress-free. Experienced
+                        online traders can take advantage of this platform
+                        as well, helping users save time for
+                        their daily trading.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-using">
+        <div class="container">
+            <h2 class="page-using__title page-titles color-dark">
+                Advantages of Using Vortex Edge
+            </h2>
+            <p class="page-using__text-top">
+                In this day and age, there are many different trading 
+                platforms available from which to choose. Because of 
+                this, it is vital to understand all of the advantages 
+                <span class="w-700">
+                    Vortex Edge 
+                </span> offers and how the platform runs to make an 
+                informed decision. The team at 
+                <span class="w-700">
+                    Vortex Edge 
+                </span> is constantly 
+                working to improve the interface's features, aiming to 
+                enhance users' experience and even stay up to date on 
+                current trading trends.
+            </p>
+            <ul class="page-using__list">
+                <li class="page-using__item page-using__item--1">
+                    <div class="page-using__item-top">
+                        <span class="page-using__icon"> 
+                            <img src="./img/windowframe.svg" alt="icon">
+                        </span>
+                        <h4 class="page-using__top-title color-dark">
+                            User-Friendly Interface
+                        </h4>
+                    </div>
+                    <p class="page-using__text">
+                        After you are verified and you gain full 
+                        access to the many different features of 
+                        the platform, you can set up your interface 
+                        exactly how you want it. If you are a 
+                        beginner, figuring out how 
+                        everything works will take some time
+                    </p>
+                </li>
+                <li class="page-using__item page-using__item--2">
+                    <div class="page-using__item-top">
+                        <span class="page-using__icon"> 
+                            <img src="./img/wallet.svg" alt="icon">
+                        </span>
+                        <h4 class="page-using__top-title color-dark">
+                            All the Money You Make is 
+                            Entirely Yours
+                        </h4>
+                    </div>
+                    <p class="page-using__text">
+                        Many online trading platforms charge users additional fees 
+                        to use the service. An example of this would be taking a 
+                        small percentage from every withdrawal a user makes, making 
+                        your earnings smaller. <span class="w-700">Vortex Edge</span> allows users to keep 
+                        every penny that they earn while trading through our platform. <br>
+                        An additional feature offered at <span class="w-700">Vortex Edge</span> is that 
+                        the available balance in your account may be withdrawn 
+                        at any time without a fee. Many companies take a 
+                        percentage of any withdrawal as a small fee. However, 
+                        depending on your bank, some banks charge a small 
+                        price to receive your money.
+                    </p>
+                </li>
+                <li class="page-using__item page-using__item--3">
+                    <div class="page-using__item-top">
+                        <span class="page-using__icon"> 
+                            <img src="./img/search-normal.svg" alt="icon">
+                        </span>
+                        <h4 class="page-using__top-title color-dark">
+                            Excluded from Hidden Fees
+                        </h4>
+                    </div>
+                    <p class="page-using__text">
+                        Many online trading companies charge several hidden fees 
+                        to make the most money from each user. A few of these fees 
+                        could be a registration fee, account maintenance, extra 
+                        features of the interface, and much more. <br>
+                        <span class="block">
+                            Here at <span class="w-700">Vortex Edge</span>, the team fully understands 
+                            that users are annoyed to pay many different fees 
+                            for online trading. They are so opposed to hidden 
+                            fees that they make the trading platform completely 
+                            free. Even if you are making an account, all you 
+                            need to do is fill out a registration form and 
+                            wait for the email confirmation.
+                        </span>
+                    </p>
+                </li>
+                <li class="page-using__item page-using__item--4">
+                    <div class="page-using__item-top">
+                        <span class="page-using__icon"> 
+                            <img src="./img/monitor-mobbile.svg" alt="icon">
+                        </span>
+                        <h4 class="page-using__top-title color-dark">
+                            Device Compatibility
+                        </h4>
+                    </div>
+                    <p class="page-using__text">
+                        A great added feature of <span class="w-700">Vortex Edge</span> 
+                        is device compatibility. 
+                        While a majority of experienced users use a computer to conduct 
+                        their research or place a trade, users have the option 
+                        to access their accounts from anywhere.
+                        As long as you have a device with access to a stable Internet 
+                        connection, you will be able to use 
+                        <span class="w-700">Vortex Edge</span>. It is highly 
+                        recommended to use a computer or laptop as your main device 
+                        for conducting trades. However, the platform is accessible 
+                        from a phone or tablet if you would like to keep track of 
+                        your trades and conduct research from anywhere.
+                    </p>
+                </li>
+                <li class="page-using__item page-using__item--5">
+                    <div class="page-using__item-top">
+                        <span class="page-using__icon"> 
+                            <img src="./img/bitcoin-convert.svg" alt="icon">
+                        </span>
+                        <h4 class="page-using__top-title color-dark">
+                            Variety of Asset Options
+                        </h4>
+                    </div>
+                    <p class="page-using__text">
+                        <span class="w-700">Vortex Edge</span> offers the 
+                        ability to trade any asset imaginable. 
+                        It is important to understand that Immediate Edge allows 
+                        individuals to use the same platform for any trading.
+                        If you want to specialize in something like cryptocurrencies, 
+                        <span class="w-700">Vortex Edge</span> allows you to 
+                        learn about its services before investing 
+                        your money. Furthermore, you can easily trade a completely 
+                        different type of asset right on the platform.
+                        However, just because you can trade any asset, it is advisable 
+                        to stick to a specified plan to become established 
+                        in your trading career
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="page-process page-wrap">
+        <div class="container">
+            <h2 class="page-process__title page-titles">
+                Process to Sign up for Vortex Edge
+            </h2>
+            <h4 class="page-process__subtitle color-dark">
+                <span class="page-process__subtitle--mod">
+                    The sign-up process for 
+                    <span class="w-700">Vortex Edge</span> is 
+                    extremely simple and quick.
+                </span>
+                The only thing you need is a compatible 
+                device and a stable Internet connection.
+            </h4>
+            <ul class="page-process__list">
+                <li class="page-process__item page-process__item--first">
+                    <div class="page-process__title-wrap">
+                        <img src="./img/1.svg" class="page-process__icon" alt="icon">
+                        <h5 class="page-process__item-title">
+                            Step One - Registration
+                        </h5>
+                    </div>                         
+                    <p class="page-process__text">
+                        The first step in the process of signing up 
+                        is to fill out the registration form. This 
+                        form includes your name, phone number, and 
+                        email address. After you receive the confirmation 
+                        email and click on the link, you will become 
+                        a member of Immediate Edge.
+                    </p> 
+                </li>
+                <li class="page-process__item">
+                    <div class="page-process__title-wrap">
+                        <img src="./img/1.svg" class="page-process__icon" alt="icon">
+                        <h5 class="page-process__item-title">
+                            Step Two - Financials
+                        </h5>
+                    </div>                         
+                    <p class="page-process__text">
+                        For those who are looking to conduct live trading, 
+                        the platform requires a minimum of $250 in your 
+                        account, which will be used to make your trades.
+                    </p> 
+                </li>
+                <li class="page-process__item page-process__item--last">
+                    <div class="page-process__title-wrap">
+                        <img src="./img/3.svg" class="page-process__icon" alt="icon">
+                        <h5 class="page-process__item-title">
+                            Step Three - Trading
+                        </h5>
+                    </div>                         
+                    <p class="page-process__text">
+                        The final step is to set up 
+                        your trading preferences.
+                    </p> 
+                </li>
+            </ul>
+        </div>       
+    </section>
+    <section class="page-asked page-wrap">
+        <div class="container page-asked__container">
+            <div class="page-asked__left">
+                <h2 class="page-titles page-asked__title">
+                    <span class="color-gold">
+                        Vortex Edge
+                    </span> <br>
+                    Commonly Asked Questions
+                </h2>
+                <p class="page-asked__text">
+                    For those who are entering the online trading 
+                    world, there are a number of questions that could 
+                    be swirling in their minds in the beginning. 
+                    Online trading can be a daunting process, and 
+                    many people have the same questions running 
+                    through their minds. Here are some of the 
+                    most commonly asked questions when 
+                    beginning online trading through 
+                    <span class="w-700">Vortex Edge</span>.
+                </p> 
+                <a href="#page-form" class="page-btn page-asked__btn">
+                    Register Now
+                </a>
+            </div>
+            <div class="page-asked__right">  
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What experience level is required for Vortex Edge?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Users of any experience level are able to use 
+                            <span class="w-700 color-white">Vortex Edge</span>
+                            to their advantage. Beginners who are new to online trading can 
+                            learn about the process at their own pace, allowing them to 
+                            become comfortable with online trading. Even individuals 
+                            who have previous experience with online trading can benefit by using the 
+                            <span class="w-700 color-white">Vortex Edge</span>
+                            platform to save time when trading and researching assets.
+                         </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What asset trading options are offered through Vortex Edge?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Users of any experience level are able to use 
+                            <span class="w-700 color-white">Vortex Edge</span>
+                            to their advantage. Beginners who are new to online trading can 
+                            learn about the process at their own pace, allowing them to 
+                            become comfortable with online trading. Even individuals 
+                            who have previous experience with online trading can benefit by using the 
+                            <span class="w-700 color-white">Vortex Edge</span>
+                            platform to save time when trading and researching assets.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is the cost to use Vortex Edge?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Users of any experience level are able to use 
+                            <span class="w-700 color-white">Vortex Edge</span>
+                            to their advantage. Beginners who are new to online trading can 
+                            learn about the process at their own pace, allowing them to 
+                            become comfortable with online trading. Even individuals 
+                            who have previous experience with online trading can benefit by using the 
+                            <span class="w-700 color-white">Vortex Edge</span>
+                            platform to save time when trading and researching assets.                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-bottom page-wrap">
+        <div class="container">
+            <h2 class="page-titles page-bottom__title">
+                Breakdown of Vortex Edge
+            </h2>
+            <div class="page-bottom__table page-table">
+                <div class="page-table__row page-table__row--mod">
+                    <div class="page-table__left">
+                        <span class="page-table__icon">
+                            <img src="./img/chart.svg" alt="icon">
+                        </span>
+                        Formatting of the Platform
+                    </div>
+                    <div class="page-table__right">
+                        Commodities, forex, stocks, and cryptocurrencies
+                    </div>
+                </div>
+                <div class="page-table__row page-table__row--bg">
+                    <div class="page-table__left">
+                        <span class="page-table__icon">
+                            <img src="./img/discount-shape.svg" alt="icon">
+                        </span>
+                        Platform Fees
+                    </div>
+                    <div class="page-table__right">
+                        Free of charge
+                    </div>
+                </div>
+                <div class="page-table__row">
+                    <div class="page-table__left">
+                        <span class="page-table__icon">
+                            <img src="./img/search-normal.svg" alt="icon">
+                        </span>
+                        Fees
+                    </div>
+                    <div class="page-table__right">
+                        No charges
+                    </div>
+                </div>
+                <div class="page-table__row page-table__row--bg">
+                    <div class="page-table__left">
+                        <span class="page-table__icon">
+                            <img src="./img/Laptop Minimalistic.svg" alt="icon">
+                        </span>
+                        Type of Platform
+                    </div>
+                    <div class="page-table__right">
+                        Internet-based Solution
+                    </div>
+                </div>
+                <div class="page-table__row page-table__row--bg">
+                    <div class="page-table__left">
+                        <span class="page-table__icon">
+                            <img src="./img/card-add.svg" alt="icon">
+                        </span>
+                        Deposit Options
+                    </div>
+                    <div class="page-table__right">
+                        Wire transfer,PayPal, debit/credit card
+                    </div>
+                </div>
+                <div class="page-table__row">
+                    <div class="page-table__left">
+                        <span class="page-table__icon">
+                            <img src="./img/global.svg" alt="icon">
+                        </span>
+                        Countries
+                    </div>
+                    <div class="page-table__right">
+                        Available in many countries, USA excluded
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__box">
+                <div class="footer__logo">
+                    <img src="./img/logo.svg" alt="">
+                </div>
+                <nav class="page-nav footer__nav">
+                    <ul class="page-nav__list page-nav__list--footer">
+                        <li class="page-nav__item page-nav__item--footer">
+                            <a href="#page-form">
+                                Home
+                            </a>
+                        </li>
+                        <li class="page-nav__item page-nav__item--footer">
+                            <a href="about.html">
+                                About The Platform
+                            </a>
+                        </li>
+                        <li class="page-nav__item page-nav__item--footer">
+                            <a href="contact.html">
+                                Contact Page
+                            </a>
+                        </li>
+                        <li class="page-nav__item page-nav__item--footer">
+                            <a href="login.html">
+                                Login
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__box-text">
+                <h5 class="footer__title">Important Risk Note:</h5>
+                <p class="footer__text">
+                    It should be noted that cryptocurrency trading can be a highly risky investment and should be
+                    approached with caution, especially during times of extreme volatility. Data suggests that roughly
+                    70% of investors will lose money at some point in time. However, the market can also be quite
+                    lucrative with the right trades.
+                </p>
+                <p class="footer__text">
+                    Keep in mind that Immediate Vortex, in addition to any other commercial names used on this platform,
+                    are for commercial purposes only. Make sure to read the Terms and Conditions thoroughly, as that
+                    will provide everything you need to know about how we operate
+                </p>
+                <p class="footer__text">
+                    In addition to that, a policy has been issued by the FCA that prohibits the dissemination of
+                    marketing materials related to the distribution of CFDs and other financial products on
+                    cryptocurrencies. However, this is only addressed to residents in the UK.
+                </p>
+                <p class="footer__text">
+                    Regarding your personal information, you consent to allow us to share your personal details with
+                    necessary third parties. This is primarily related to entities that provide trading services in line
+                    with our Privacy Policy and Terms and Conditions.
+                </p>
+            </div>
+            <div class="footer__box footer__box--bottom">
+                <p class="center">Copyrights © <span class="year"></span> All Rights Reserved by <b>Vortex Edge</b></p>
+                <nav class="page-nav footer__nav">
+                    <ul class="page-nav__list page-nav__list--footer">
+                        <li class="page-nav__item page-nav__item--footer">
+                            <a data-bs-toggle="modal" data-bs-target="#privacy" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="page-nav__item page-nav__item--footer">
+                            <a data-bs-toggle="modal" data-bs-target="#terms" href="#">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="privacy" tabindex="-1" aria-labelledby="privacyLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="privacyLabel">Privacy Policy</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+    
+                    <h4><b>Your privacy is of utmost importance to us.</b></h4>
+    
+                    <p>It is our policy to respect your privacy regarding any information we may collect while operating our website. This Privacy Policy applies to the company (hereinafter referred to as 'we,' 'us,' or 'our'). We deeply value your privacy and are committed to safeguarding any personally identifiable information you may provide to us through our website. We have established this privacy policy ("Privacy Policy") to clarify what information may be collected on our website, how we utilize this information, and the circumstances under which we may disclose it to third parties. Please note that this Privacy Policy pertains solely to information collected through our website and does not extend to information gathered from other sources. When using our website, you agree to abide by this Privacy Policy and our Terms and Conditions, which are posted on our website. Depending on your activities while visiting our website, you may be required to accept additional terms and conditions.</p>
+    
+                    <h4><b>Website Visitors</b></h4>
+    
+                    <p>Like most website operators, we collect non-personally-identifying information that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. The purpose of gathering non-personally identifying information is to gain a better understanding of how visitors use our website. On occasion, we may share non-personally-identifying information in the aggregate, such as by publishing reports on trends in the usage of our website. We also collect potentially personally-identifying information, such as Internet Protocol (IP) addresses, from logged-in users and users who leave comments on blog posts. We only disclose logged-in user and commenter IP addresses under the same circumstances as described below for personally-identifying information.</p>
+    
+                    <h4><b>Gathering of Personally-Identifying Information</b></h4>
+    
+                    <p>Some visitors to our website choose to interact with us in ways that require us to collect personally-identifying information. The amount and type of information we collect depend on the nature of the interaction. For instance, when visitors sign up for a blog, we may request a username and email address.</p>
+    
+                    <h4><b>Security</b></h4>
+    
+                    <p>The security of your Personal Information is vital to us. However, please be aware that no method of transmission over the Internet or electronic storage is 100% secure. Although we make every effort to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+    
+                    <h4><b>Advertisements</b></h4>
+    
+                    <p>Ads displayed on our website may be delivered to users by advertising partners, who may set cookies. These cookies enable the ad server to recognize your computer whenever they send you an online advertisement, allowing them to compile information about you and other users of your computer. This information assists ad networks in delivering targeted advertisements they believe will be of interest to you. Our Privacy Policy covers the use of cookies by us and does not encompass the use of cookies by any advertisers.</p>
+    
+                    <h4><b>Links To External Sites</b></h4>
+    
+                    <p>Our Service may include links to external sites that we do not operate. Clicking on a third-party link will redirect you to that third party's website. We strongly encourage you to review the Privacy Policy and terms and conditions of every site you visit. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites, products, or services.</p>
+    
+                    <h4><b>Aggregated Statistics</b></h4>
+    
+                    <p>We may collect statistics about the behavior of visitors to our website and may display this information publicly or provide it to others. However, we do not disclose your personally-identifying information.</p>
+    
+                    <h4><b>Affiliate Disclosure</b></h4>
+    
+                    <p>This site uses affiliate links and may earn a commission from certain links. This does not impact your purchases or the price you pay.</p>
+    
+                    <h4><b>Cookies</b></h4>
+    
+                    <p>To enhance and personalize your online experience, we use "Cookies" and similar technologies and services provided by others to display personalized content, relevant advertising, and store your preferences on your computer. A cookie is a string of information that a website stores on a visitor’s computer, and the visitor’s browser provides this information to the website each time they return. We use cookies to help identify and track visitors, their usage of our website, and their website access preferences. Visitors who do not wish to have cookies placed on their computers should configure their browsers to refuse cookies before using our website. However, please note that certain features of our website may not function properly without the aid of cookies. By continuing to navigate our website without changing your cookie settings, you acknowledge and agree to our use of cookies.</p>
+    
+                    <h4><b>Privacy Policy Changes</b></h4>
+    
+                    <p>While most changes are likely to be minor, we may modify our Privacy Policy from time to time, at our sole discretion. We encourage visitors to check this page regularly for any changes to our Privacy Policy. Your continued use of this site after any changes to this Privacy Policy will constitute your acceptance of such changes.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary modal-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="terms" tabindex="-1" aria-labelledby="termsLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="termsLabel">Terms and Conditions</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+    
+                    <h4><b>General</b></h4>
+    
+                    <p>1.1. Welcome to the "Website".</p>
+    
+                    <p>1.2. The Website includes information about third-party platforms (the "Third-Party Platforms") for trading in Bitcoins (the "Services").</p>
+    
+                    <p>1.3. These terms of use (the "Terms") govern your ("You", "Your" or "User") use of the Website or the Services. These Terms should be read carefully by You in their entirety prior to Your use of the Services. Please note that these Terms constitute a legally binding agreement between You and the Company, and that if You do not agree with any provision of these Terms, You shall immediately cease using the Website. By using the Website, You agree to the Terms, as amended from time to time.</p>
+    
+                    <p>These Terms incorporate Our Privacy Policy, and by agreeing to these Terms, You confirm that You also accept and agree to Our privacy policy.</p>
+    
+                    <h4><b>Eligibility</b></h4>
+    
+                    <p>2.1. You are only entitled to use the Website if You comply with all of the following:</p>
+    
+                    <p>2.1.1. You are at least 18 years old;</p>
+    
+                    <p>2.1.2. You have the right, authority, and capacity to enter into these Terms and to abide by all the terms and conditions of these Terms;</p>
+    
+                    <p>2.1.3. You are not prohibited from using the Website and/or the Services pursuant to the laws of the country in which You reside or are located while using the Website.</p>
+    
+                    <p>2.2. The Company makes no representations or warranties, express or implied, concerning the legality of the Website and/or the Services and/or any person's use of the Website and/or the Services and shall not be responsible for any illegal use of the Website and/or the Services by the User.</p>
+    
+                    <h4><b>Restricted Territories</b></h4>
+    
+                    <p>3.1. Without derogating from the generality of the foregoing, the Company may, at its sole discretion, restrict the availability of the Website and/or Services (or any part thereof) to: (i) any Users in any territory (the “Restricted Territories”), and (ii) any Users who do not comply with the Company's AML (anti-money laundering) and/or KYC (know your client) policies and practices, or (iii) who the Company reasonably believes may expose it to legal, regulatory, reputation, or economic risks.</p>
+    
+                    <p>3.2. The territories of [usa’ kanada’ israel] are specifically excluded from these Terms and constitute Restricted Territories.</p>
+    
+                    <p>3.3. If the Company reasonably believes that any legal or regulatory environment (and/or any actual or proposed changes thereto) in the relevant territory will expose the Company to legal, regulatory, reputation, or economic risks in such territory should the Company continue to provide or make available the Website and/or Services (or any part thereof) to Users in that territory, the Company may inform You of its decision to designate such territory as a Restricted Territory, and following such notice, You shall cease immediately using the Website and/or Services.</p>
+    
+                    <p>3.4. The Company may impose additional requirements or conditions before accepting Users residing in or from specific countries at its sole discretion. Furthermore, it is acknowledged that if any Users should travel to the Restricted Territories, the Company's Website and/or Services may be unavailable and/or blocked therein.</p>
+    
+                    <h4><b>Prohibited Activities</b></h4>
+    
+                    <p>4.1. You undertake to use the Website and the Services respectfully and agree not to:</p>
+    
+                    <p>4.1.1. Link to the Website and/or use the Website for the purpose of uploading, downloading, distributing, publishing, or transmitting (a) information or other material in a manner that violates any rights, including intellectual property rights, protection of privacy rights, or any other right; (b) information or other material that is prohibited for publication or use because it constitutes a threat, harm, insult, slander, defamation, racism, or inappropriate content; (c) information or other material that includes a virus or other software that may damage the computer systems of the Company or any third parties or in a manner that may restrict or prevent others from using the Website; (d) information or other material that violates any law; or (e) information or other material that includes an advertisement of any kind without the prior written permission of the Company;</p>
+    
+                    <p>4.1.2. Delete or modify any attributions, legal notices, or other proprietary designations or labels on the Website;</p>
+    
+                    <p>4.1.3. Use the Services using any interface other than the Website;</p>
+    
+                    <p>4.1.4. Interfere with other Users' use of the Website and/or the Services;</p>
+    
+                    <p>4.1.5. Use bots or other automated methods to access or use the Website and/or the Services;</p>
+    
+                    <p>4.1.6. Upload or transmit (or attempt to upload or transmit), without the Company’s express permission, any material that acts as a passive or active information collection or transmission mechanism, including, without limitation, web bugs, cookies, or other similar spyware devices;</p>
+    
+                    <p>4.1.7. Engage in “framing,” “mirroring,” or otherwise simulating the appearance or function of the Services;</p>
+    
+                    <p>4.1.8. Violate any applicable laws or regulations, encourage or promote any illegal activity, including but not limited to copyright infringement, trademark infringement, defamation, invasion of privacy, identity theft, hacking, cracking, or distribution of counterfeit software;</p>
+    
+                    <p>4.1.9. Make any changes and/or interfere in any way in the source code of the Website and upload any software and/or application that may harm or cause damage to the Company, the Website, or any other third party;</p>
+    
+                    <p>4.1.10. Disassemble, decompile, or otherwise reverse engineer any software or other technology included in the Website or used to provide the Services.</p>
+    
+                    <p>4.2. You acknowledge that without prejudice to any other right of the Company, in case the Company is concerned that Your use of the Website does not comply with the provisions of these Terms or any applicable law, the Company may track Your use of the Website or the Services, prevent You from accessing the Website, transfer Your behavior patterns on the Website to third parties, and take any other action that the Company deems appropriate to protect its property and/or rights and/or the rights of third parties.</p>
+    
+                    <h4><b>Intellectual Property Rights</b></h4>
+    
+                    <p>5.1. The Website and its content, including video materials, text, photos, logos, designs, music, sound, figures, trademarks, and any other content embodied in the Website, are protected by intellectual property rights of the Company or of third parties.</p>
+    
+                    <p>5.2. As between the Company and the User, the Company retains all right, title, and interest in and to the Website and the Services. The use of the Website and/or the Services does not confer on the User any of the intellectual property rights embodied in the Website and/or the Services, other than the right to use the Website and/or the Services in accordance with the terms of these Terms.</p>
+    
+                    <p>5.3. The User may only use the Website and/or the Services for personal and non-commercial use.</p>
+    
+                    <p>5.4. You shall not, nor shall You allow any other party to modify, decompile, disassemble, reverse engineer, copy, transfer, create derivative works from, rent, sublicense, distribute, reproduce framed, republish, scrape, download, display, transmit, post, lease, or sell in any form or by any means, in whole or in part, use for any purpose other than for using the Website or the Services pursuant to the Terms or otherwise exploit any of the contents of the Website without the Company’s explicit, prior written.</p>
+    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modal-btn" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script defer src="./js/bundle.1d346ebf5b52e3ff8c17.js"></script></body>

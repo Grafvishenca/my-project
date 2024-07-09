@@ -1,8 +1,6 @@
 .idea
 .git
 /node_modules
-/dist
 .DS_Store
-cod.txt
-crypt.txt
+cod.txt 
 package-lock.json
